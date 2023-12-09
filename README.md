@@ -1,2 +1,2 @@
-# content
-✉️ Content and attachments for websites and emails
+# Kiondaga Brand Content
+✉️ Content, attachments, and resources for web and email references
