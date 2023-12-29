@@ -1,0 +1,44 @@
+<!-- Typekit required for Museo Sans font-->
+<link rel="stylesheet" href="https://use.typekit.net/uvm0mix.css">
+
+<!-- Load JS from CDN
+     Load JS from Kiondaga if CDN is ever discontinued
+     https://content.kiondaga.org/js/add-to-calendar-button-2.4.3.js -->
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2.4.3" async defer></script>
+
+<!-- Dropdown "Subscribe to Calendar" button -->
+<p style="text-align: center;">
+<add-to-calendar-button 
+  name="Kiondaga Lodge Events"
+  startDate="2023-01-01"
+  timeZone="America/Chicago"
+  icsFile="https://calendar.google.com/calendar/ical/c_127452b889d91fb18ff8fbc0bbe6797c6468a99b68d244b3b456154f15329d9f%40group.calendar.google.com/public/basic.ics"
+  subscribe="true"
+  iCalFileName="kiondaga_calendar"
+  options="'Apple','Google','Outlook.com','Yahoo'"
+  buttonStyle="round"
+  hideCheckmark
+  label="Subscribe to Calendar"
+  inline="true"
+  lightmode="bodyScheme"
+  stylelight="--font: museo-sans, serif"
+  ></add-to-calendar-button></p>
+
+
+<!-- List of buttons, per platform. BYO heading to tell the user what this is. -->
+<p style="text-align: center;">
+<add-to-calendar-button
+  startdate="2023-01-01"
+  timeZone="America/Chicago"
+  subscribe="true"
+  icsfile="https://calendar.google.com/calendar/ical/c_127452b889d91fb18ff8fbc0bbe6797c6468a99b68d244b3b456154f15329d9f%40group.calendar.google.com/public/basic.ics"
+  iCalFileName="kiondaga_calendar"
+  buttonslist="true"
+  inline="true"
+  buttonstyle="round"
+  lightmode="bodyScheme"
+  stylelight="--font: museo-sans, serif"
+  name="Kiondaga Lodge Events"
+  options="'Apple','Google','iCal','Outlook.com','Microsoft 365','Yahoo'"
+  ></add-to-calendar-button></p>
+  
